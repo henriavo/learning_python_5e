@@ -23,4 +23,3 @@ if lista is not listb:
 
 
 print("lista is: {}".format(lista))
-

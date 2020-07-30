@@ -4,7 +4,7 @@ print("Python String Fundamentals \n")
 
 
 # :::::::::::: String formatting ::::::::::::
-name = "henri W idrovo"
+name = "henri W idrovo"cd 
 
 print(f"My name is: {name}")
 

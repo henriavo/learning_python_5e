@@ -78,7 +78,19 @@ mappingOne['a'] = 44
 print(mappingOne)
 
 mappingOne['a'] = [0,44]
-print(mappingOne)
+print(mappingOne, "\n")
+
+# ::::::::: ACCESS ALL KEYS. ACCESS ALL VALUES. AS KEYS AND TUPLES ::::::
+r1 = mappingOne.values()
+print(list(r1))
+print(tuple(r1))
+
+r2 = mappingOne.keys()
+print(list(r2))
+print(tuple(r2))
+
+r3 = mappingOne.items()
+print(list(r3))
 
 
 

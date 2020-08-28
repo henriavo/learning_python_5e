@@ -17,7 +17,12 @@ while True:
 	else: print(int(x) * 2)
 
 
-
-
-
-
+while True:
+	x = input("enter something:")
+	if x == "stop": break
+	try:
+		num = int(x)
+	except:
+		print("BAD! " * 3)
+	else:
+		print(num * 2)
